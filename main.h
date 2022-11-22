@@ -16,4 +16,8 @@ typedef struct identifierStruct
 
 int p_ident(char m, va_list arg);
 int _printf(const char *format, ...);
+int print_char(va_list arg);
+int print_str(va_list arg);
+int print_int(va_list arg);
+
 #endif /*MAIN_H*/
