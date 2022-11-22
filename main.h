@@ -1,5 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <stdarg.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * struct identifierStruct - structure definition of a printTypeStruct
