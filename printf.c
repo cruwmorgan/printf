@@ -20,11 +20,7 @@ int p_ident(char m, va_list arg)
 		{"d", print_int},
 		{"i", print_int},
 		{"u", print_unsigned},
-		{"b", print_unsignedToBinary},
-		{"o", print_oct},
-		{"x", print_hex},
-		{"X", print_HEX},
-		{"S", print_STR},
+		{"r", print_reverse},
 		{NULL, NULL}
 	};
 	/*@for loops through the arguments*/
